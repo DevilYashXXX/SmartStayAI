@@ -1,0 +1,66 @@
+/* src/pages/RegisterPage.css */
+.register-page {
+  background-color: #ffffff;
+  border: 1px solid #d7e7df;
+  border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(20, 43, 34, 0.08);
+  margin: 2rem auto;
+  max-width: 560px;
+  padding: 30px;
+}
+
+.register-page h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Adjusted font size for better readability */
+  text-align: center; /* Center align heading */
+  color: #173629;
+}
+
+.user-type-selection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-type-selection label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #173629;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #bdd6cb;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #176b48;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0f5035;
+}
+.address-details {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
